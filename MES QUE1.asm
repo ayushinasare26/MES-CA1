@@ -1,0 +1,9 @@
+MOV A, #08H
+ADD A, #03H
+
+MOV B, #64H
+MUL AB
+
+ADD A, #4AH
+
+HERE: SJMP HERE
