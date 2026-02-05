@@ -1,0 +1,11 @@
+ORG 0000H
+CLR A
+
+ORL A, #80H
+
+
+ANL A, #0F0H
+
+ORL A, #05H
+
+END
